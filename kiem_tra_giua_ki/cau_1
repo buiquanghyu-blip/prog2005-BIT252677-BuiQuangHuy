@@ -1,0 +1,24 @@
+a= int(input('Nhập số a:' ))
+b= int(input('Nhập số b:'))
+c= int(input('Nhập số c:' ))
+
+if a > b and a > c:
+    print(a,"là số lớn nhất")
+if b > a and b > c:
+    print(b,"là số lớn nhất")
+if c > a and c > b:
+    print(c,"là số lớn nhất")
+if a < b and b < c:
+    print(a,"là số nhỏ nhất")
+if b < a and b < c:
+    print(b,"là só nhỏ nhất")
+if c < a and c < b:
+    print(c,"là số nhỏ nhất")
+
+delta = b^2 - 4*a*c
+x1 = (b+(delta/2)/a*c)
+x2 = (-b+(delta/2)/a*c)
+
+print("Nghiệm của phương trình là:")
+print(f"x1: ",x1)
+print(f"x2: ",x2)
