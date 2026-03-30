@@ -1,0 +1,3 @@
+s = input("Nhập một chuỗi: ")
+print("Chiều dài chuỗi là:", len(s))
+print("Chuỗi viết hoa:", s.upper())
