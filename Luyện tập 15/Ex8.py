@@ -13,4 +13,4 @@ class Product:
 p = Product(100)
 print(p.get_price())
 
-p.set_price(-50)  # lỗi
+p.set_price(-50)  
